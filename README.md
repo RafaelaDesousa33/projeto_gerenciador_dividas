@@ -6,6 +6,8 @@ O **Gerenciador de Dívidas** é uma aplicação web simples desenvolvida com **
 
 O objetivo do projeto é praticar conceitos de manipulação do DOM, validação de dados e criação dinâmica de elementos utilizando JavaScript puro.
 
+<img src="projeto_gerenciador_dividas_foto.png" alt="imagem do projeto">
+
 ## Funcionalidades
 
 * Adicionar pessoas com valores de dívidas
