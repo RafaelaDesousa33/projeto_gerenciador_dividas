@@ -1,0 +1,430 @@
+/*geral*/
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.btnCustom {
+    color: #fff;
+    background-color: #bb5f5f;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    font-weight: bolder;
+    transition: all 0.25s ease;
+
+}
+
+.btnCustom:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    color: #000;
+    background: #fff;
+
+}
+
+body {
+    background-color: #ddd;
+}
+
+/*header-container*/
+#header-container header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+}
+
+#header-container_links ul li a {
+    text-decoration: none;
+    color: #6e6b6b;
+    transition: all 0.25s ease;
+}
+
+#header-container_links ul li a:hover {
+    color: #0000809a;
+    cursor: pointer;
+    font-weight: bolder;
+
+}
+
+#header-container_links ul li {
+    display: inline;
+    margin: 20px;
+
+
+}
+
+.link-inicio {
+    border-bottom: 2px solid #0000809a;
+}
+
+.btn_entrar {
+    padding: 10px;
+    width: 100px;
+    background-color: #0000809a;
+    color: #fff;
+    font-weight: bolder;
+    border: none;
+    border-radius: 5px;
+    transition: all 0.25s ease;
+}
+
+.btn_entrar:hover {
+    transform: scale(1.1);
+    background: #fff;
+    color: #000;
+    cursor: pointer;
+}
+
+#header-container__text {
+    margin-right: 100px;
+}
+
+#header-container__text p {
+    font-weight: bolder;
+    font-size: 18px;
+
+}
+
+/*******************************/
+
+/*header-container_content*/
+#header-container_content {
+    margin-left: 50px;
+    margin-top: 80px;
+
+}
+
+#header-container_content p {
+    margin-top: 20px;
+}
+
+#header-container_content h1 {
+    font-size: 63px;
+}
+
+.span-blue {
+    color: #000080c2;
+}
+
+/********************************/
+
+/*container-funcionalidades*/
+#section-funcionalidades {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+#container_funcionalidades_dividas {
+    flex-direction: column;
+    margin-top: 100px;
+    margin-left: 60px;
+}
+
+.container_funcionalidades_dividas__saldo {
+    margin-bottom: 20px;
+    background-color: #E6E6FA;
+    width: 300px;
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+.p_saldo {
+    margin-top: 20px;
+    color: #000080d3;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.container_funcionalidades_dividas__pessoas {
+    margin-top: 20px;
+    padding: 20px;
+
+}
+
+.container_funcionalidades_dividas__pessoas h5 {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.container_funcionalidades_dividas__pessoas p img {
+    width: 30px;
+
+}
+
+.container_funcionalidades_dividas__pessoas p {
+    margin-top: 20px;
+    margin-bottom: 24px;
+    font-weight: bolder;
+
+
+
+}
+
+.img_user {
+    margin-right: 20px;
+
+}
+
+.box-dividas {
+    background-color: #fff;
+    width: 300px;
+    margin-top: 30px;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+
+}
+
+/***************************************/
+
+/*container_nova_divida*/
+#container_nova_divida__form {
+    flex-direction: column;
+
+}
+
+#container_nova_divida {
+    margin-top: 100px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    height: 300px;
+
+
+}
+
+
+#container_nova_divida h5 {
+    margin-bottom: 10px;
+}
+
+#container_nova_divida__form {
+    font-size: 20px;
+
+}
+
+#container_nova_divida__form input {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#container_nova_divida__form label {
+    font-weight: bolder;
+}
+
+#container_nova_divida__form button {
+    padding: 10px;
+    margin: 30px auto;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    background-color: #0000809a;
+    color: #fff;
+    font-weight: bolder;
+    transition: all 0.25s ease;
+}
+
+#container_nova_divida__form button:hover {
+    transform: scale(1.1);
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+    cursor: pointer;
+}
+
+
+
+/*************************************/
+
+/*container_footer*/
+
+
+#container_footer {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+
+}
+
+.container_footer_links ul li {
+    display: inline;
+    margin: 20px;
+
+
+}
+
+.container_footer_links ul li a {
+    text-decoration: none;
+    color: #5c5757;
+}
+
+.container_footer_direitos p {
+    color: #5c5757;
+
+}
+
+
+
+/*media queries*/
+/* X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+    /*header-container_links*/
+    #header-container_links ul li a {
+        display: none;
+    }
+
+    .btn_entrar {
+        position: relative;
+        left: 10px;
+        padding: 20px;
+        width: 100px;
+    }
+
+    /*header-container_content*/
+
+
+    #header-container_content h1 {
+        font-size: 40px;
+
+
+    }
+
+
+    #header-container_content p {
+        padding: 10px 20px;
+        font-size: 12px;
+        margin-right: 100px;
+
+    }
+
+    /*container-funcionalidades*/
+    .container_funcionalidades_dividas__saldo {
+        width: 200px;
+    }
+
+    .box-dividas {
+        width: 200px;
+        padding: 20px;
+
+
+    }
+
+    .box-dividas img {
+        display: none;
+
+    }
+
+    .container_funcionalidades_dividas__pessoas {
+        align-items: center;
+        margin-right: 57px;
+
+    }
+
+    /*section-funcionalidades*/
+    #section-funcionalidades {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    #container_nova_divida {
+        width: 200px;
+
+    }
+
+    /*/*container_footer*/
+    #container_footer {
+        font-size: 10px;
+    }
+
+
+}
+
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+
+    /*header-container*/
+    #header-container_content h1 {
+        font-size: 30px;
+
+    }
+
+
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+
+    /*header-container_content*/
+    #header-container_content {
+        margin-left: 80px;
+
+
+    }
+
+    #header-container_content p,
+    #header-container_content h1 {
+        margin-top: 30px;
+    }
+
+    /* #header-container_links*/
+    #header-container_links ul {
+        display: none;
+
+
+    }
+
+    /*section-funcionalidades*/
+    .box-dividas {
+        width: 200px;
+    }
+
+    .box-dividas img {
+        display: none;
+    }
+
+    #container_nova_divida {
+        width: 200px;
+    }
+
+
+    /*/*container_footer*/
+    #container_footer {
+        font-size: 10px;
+    }
+
+
+
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+
+    /*header-container_conten*/
+    #header-container_content {
+        font-size: 24px;
+        margin-top: 50px;
+        margin-left: 30px;
+        padding: 40px;
+    }
+
+    #header-container_content p {
+        margin-top: 30px;
+    }
+
+
+
+
+}
+
+/* X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {}

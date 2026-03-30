@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciamento de dividas</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="save-money_icone.png" type="image/x-icon">
+</head>
+
+<body>
+
+    <div id="header-container">
+
+        <header>
+
+            <div id="header-container__text">
+
+                <p>Controle de Dívidas</p>
+
+            </div><!--fim header-container__text-->
+
+            <div id="header-container_links">
+
+                <nav>
+                    <ul>
+                        <li><a href="#" class="link-inicio">Início</a></li>
+                        <li><a href="#">Simulador</a></li>
+                        <li><a href="#">Estratégia</a></li>
+                        <li><a href="#">Educação</a></li>
+                    </ul>
+
+                </nav>
+
+            </div><!--fim header-container_links-->
+
+            <button class="btn_entrar">Entrar</button>
+
+        </header>
+
+
+    </div><!--fim header-container-->
+
+
+    <div id="header-container_content">
+        <header>
+
+            <h1>Organize e acompanhe o<br> que voce deve de <span class="span-blue">forma simples.</span></h1>
+            <p>Tome as rédeas da sua vida financeira com uma interface intuitiva desenhada<br> para clareza e paz de
+                espirito.</p>
+
+
+
+        </header>
+
+    </div><!--fim header-container_content-->
+
+
+    <main>
+        <section id="section-funcionalidades">
+
+            <div id="container_funcionalidades_dividas">
+
+                <div class="container_funcionalidades_dividas__saldo">
+                    <p>SALDO DEVEDOR TOTAL</p>
+                    <p class="p_saldo">R$ <span class="valor_total"></span></p>
+
+                </div>
+
+
+
+
+                <div class="container_funcionalidades_dividas__pessoas">
+
+                    <h5>Dividas Recentes</h5>
+
+            
+                </div>
+
+            </div><!--fim container_funcionalidades_dividas-->
+
+
+
+            <div id="container_nova_divida">
+                <h5>Nova Dívida</h5>
+
+                <form id="container_nova_divida__form">
+
+                    <div class="input_user_name">
+                        <label for="user_name">Nome da pessoa:</label>
+                        <input name="user_name" type="text" placeholder="Ex:Jose Santos" class="name_user" required>
+
+
+                    </div>
+
+                    <div class="input_user_valor">
+
+                        <label for="valor_divida">Valor da divida:</label>
+                        <input name="valor_divida" type="number" placeholder="0,00" class="valor" required>
+
+
+                    </div>
+
+                    <button class="btn_divida">Adicionar Divida</button>
+
+
+                </form><!--fim container_nova_divida__form-->
+
+            </div><!--fim container_nova_divida-->
+
+
+
+        </section><!--fim section-funcionalidades-->
+
+    </main>
+
+
+
+    <footer>
+        <div id="container_footer">
+
+            <div class="container_footer_direitos">
+                <h5>Controle de Dívidas</h5>
+                <p>&copy; 2026 Controle de Dívidas. O caminho para sua liberdade financeira.</p>
+            </div>
+
+            <div class="container_footer_links">
+                <ul>
+                    <li><a href="#">Privacidade</a></li>
+                    <li><a href="#">Termos de Uso</a></li>
+                    <li><a href="#">Contato</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </div>
+
+
+        </div><!--fim container_footer-->
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
